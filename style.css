@@ -1,0 +1,103 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.root-background {
+  position: relative;
+  width: 900px;
+  margin: auto;
+  background: url("img/root.png") no-repeat top center;
+  background-size: contain;
+  overflow: visible;
+}
+
+/* Example floating images with custom positions and sizes */
+.floating-img {
+  position: absolute;
+  z-index: 2;
+  /* Add a little drop shadow for effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+/* Custom positions and sizes for each image */
+.img1 {
+  top: 230px;
+  left: 20px;
+  width: 140px;
+  height: 100px;
+}
+.img2 {
+  top: 380px;
+  right: 30px;
+  width: 120px;
+  height: 140px;
+}
+.img3 {
+  top: 350px;
+  left: 40px;
+  width: 200px;
+  height: 60px;
+}
+.img4 {
+  top: 500px;
+  right: 60px;
+  width: 100px;
+  height: 120px;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background: #fff;
+  padding: 24px 20px;
+  border-radius: 12px;
+  max-width: 90vw;
+  width: 340px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 24px;
+  cursor: pointer;
+}
+#resourceList {
+  margin: 16px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+#resourceList li {
+  margin-bottom: 10px;
+}
+#resourceList a {
+  color: #00bcd4;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+@media (max-width: 900px) {
+  .root-background {
+    width: 380px;
+  }
+}
