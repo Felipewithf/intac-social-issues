@@ -34,21 +34,6 @@ $(document).ready(function () {
   });
 });
 
-// Resource data for each image
-const resources = {
-  img1: {
-    title: "Resources for Image 1",
-    links: [
-      { text: "Sustainability Resource 1", url: "https://example.com/1" },
-      { text: "Sustainability Resource 2", url: "https://example.com/2" },
-    ],
-  },
-  img2: {
-    title: "Resources for Image 2",
-    links: [{ text: "Climate Action", url: "https://example.com/3" }],
-  },
-};
-
 $(document).ready(function () {
   // Show modal with resources on image click
   $(".floating-img").on("click", function () {

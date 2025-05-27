@@ -20,17 +20,20 @@ html {
 .floating-img {
   position: absolute;
   z-index: 2;
-  /* Add a little drop shadow for effect */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
+}
+
+.floating-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 /* Custom positions and sizes for each image */
 .img1 {
   top: 230px;
   left: 20px;
-  width: 140px;
-  height: 100px;
+  width: 240px;
+  height: 200px;
 }
 .img2 {
   top: 380px;
