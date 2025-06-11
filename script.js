@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   var img = new Image();
-  img.src = "img/root.png";
+  img.src = "img/root.webp";
   img.onload = function () {
     // Calculate the displayed height based on the image's aspect ratio and 100vw width
     var aspectRatio = img.height / img.width;

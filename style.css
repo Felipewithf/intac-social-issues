@@ -5,55 +5,139 @@ html {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  /* background-color: #717171; */
 }
 
 .root-background {
   position: relative;
   width: 900px;
   margin: auto;
-  background: url("img/root.png") no-repeat top center;
+  background: url("img/root.webp") no-repeat top center;
   background-size: contain;
   overflow: visible;
+}
+
+.root-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 900px;
+  height: 100%;
+  margin: auto;
+  background: url("img/root_overlay.webp") no-repeat top center;
+  background-size: contain;
+  overflow: visible;
+  z-index: 5;
+  pointer-events: none;
 }
 
 /* Example floating images with custom positions and sizes */
 .floating-img {
   position: absolute;
   z-index: 2;
+  opacity: 1;
 }
 
 .floating-img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+  filter: invert(1);
   cursor: pointer;
 }
 
 /* Custom positions and sizes for each image */
+/* M1  */
 .img1 {
-  top: 230px;
-  left: 20px;
-  width: 240px;
-  height: 200px;
-}
-.img2 {
-  top: 380px;
-  right: 30px;
-  width: 120px;
-  height: 140px;
-}
-.img3 {
-  top: 350px;
-  left: 40px;
-  width: 200px;
-  height: 60px;
-}
-.img4 {
-  top: 500px;
-  right: 60px;
-  width: 100px;
-  height: 120px;
+  top: 136px;
+  left: 197px;
+  width: 150px;
+  transform: rotate(-11deg);
 }
 
+/* rj1 */
+.rj1 {
+  top: 434px;
+  right: 157px;
+  width: 220px;
+  transform: rotate(-7.5deg);
+}
+
+/* M2 */
+.img2 {
+  top: 702px;
+  left: 155px;
+  width: 188px;
+  transform: rotate(10deg);
+}
+
+/* f1 */
+.f1 {
+  top: 935px;
+  right: 25px;
+  width: 365px;
+  transform: rotate(23.5deg);
+}
+/* rj2 */
+.rj2 {
+  top: 1157px;
+  left: 357px;
+  width: 209px;
+  transform: rotate(-2.2deg);
+}
+
+/* M3 */
+.img3 {
+  top: 1431px;
+  left: 134px;
+  width: 192px;
+  transform: rotate(-16.9deg);
+}
+
+/* M4 */
+.img4 {
+  top: 1716px;
+  right: 175px;
+  width: 210px;
+  transform: rotate(15deg);
+}
+
+/* f2 */
+.f2 {
+  top: 2036px;
+  left: 92px;
+  width: 308px;
+  transform: rotate(15deg);
+}
+
+/* M5 */
+.img5 {
+  top: 2581px;
+  left: 134px;
+  width: 220px;
+  transform: rotate(-19deg);
+}
+
+/* rj3 */
+.rj3 {
+  top: 2234px;
+  right: 192px;
+  width: 208px;
+  transform: rotate(8.5deg);
+}
+
+/* f3 */
+.f3 {
+  top: 2843px;
+  right: 130px;
+  width: 290px;
+  transform: rotate(12.6deg);
+}
+
+/* f4 */
+.f4 {
+  top: 3058px;
+  left: 95px;
+  width: 285px;
+  transform: rotate(-17.5deg);
+}
 /* Modal */
 .modal {
   display: none;
@@ -101,6 +185,9 @@ html {
 
 @media (max-width: 900px) {
   .root-background {
+    width: 380px;
+  }
+  .root-overlay {
     width: 380px;
   }
 }
