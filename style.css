@@ -190,4 +190,65 @@ html {
   .root-overlay {
     width: 380px;
   }
+
+  .img1 {
+    top: -12px;
+    left: 38px;
+    transform: scale(0.4222) rotate(-10.5deg);
+  }
+  .rj1 {
+    top: 132px;
+    right: 7px;
+    transform: scale(0.4222) rotate(-8.5deg);
+  }
+  .img2 {
+    top: 220px;
+    left: 12px;
+    transform: scale(0.4222) rotate(8.5deg);
+  }
+  .f1 {
+    top: 341px;
+    left: 105px;
+    transform: scale(0.4222) rotate(24.5deg);
+  }
+  .rj2 {
+    top: 405px;
+    left: 90px;
+    transform: scale(0.4222) rotate(-1.5deg);
+  }
+  .img3 {
+    top: 515px;
+    left: 0;
+    transform: scale(0.4222) rotate(-17.5deg);
+  }
+  .img4 {
+    top: 647px;
+    right: 14px;
+    transform: scale(0.4222) rotate(15deg);
+  }
+  .f2 {
+    top: 808px;
+    left: -50px;
+    transform: scale(0.4222) rotate(12deg);
+  }
+  .img5 {
+    top: 1007px;
+    left: -8px;
+    transform: scale(0.4222) rotate(-16deg);
+  }
+  .rj3 {
+    top: 867px;
+    right: 20px;
+    transform: scale(0.4222) rotate(9deg);
+  }
+  .f3 {
+    top: 1157px;
+    right: -32px;
+    transform: scale(0.4222) rotate(13deg);
+  }
+  .f4 {
+    top: 1250px;
+    left: -39px;
+    transform: scale(0.4222) rotate(-17.5deg);
+  }
 }
