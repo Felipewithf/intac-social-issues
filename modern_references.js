@@ -113,7 +113,7 @@ const resources = {
     ],
   },
   img9: {
-    image: "img/f1.png",
+    image: "./img/f1.png",
     imageSubtitle: "Archive Photograph: Saskatchewan Archives Board",
     title: "Replacement",
     description:
