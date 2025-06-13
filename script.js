@@ -1,17 +1,3 @@
-// Example: Animate floating images on scroll or add interactivity
-$(document).ready(function () {
-  // Example: Slightly move images on scroll for a parallax effect
-  $(window).on("scroll", function () {
-    let scrollTop = $(window).scrollTop();
-    $(".floating-img").each(function (i) {
-      $(this).css(
-        "transform",
-        `translateY(${scrollTop * (0.05 + i * 0.02)}px)`
-      );
-    });
-  });
-});
-
 $(document).ready(function () {
   var img = new Image();
   img.src = "img/root.webp";
@@ -43,12 +29,15 @@ $(document).ready(function () {
       .find((c) => c.startsWith("img"));
     const data = resources[imgClass];
     if (data) {
+      $("#modalImage").attr("src", data.image);
+      $("#modalImageSubtitle").text(data.imageSubtitle);
       $("#modalTitle").text(data.title);
+      $("#modalDescription").text(data.description);
       $("#resourceList").html(
         data.links
           .map(
             (link) =>
-              `<li><a href="${link.url}" target="_blank">${link.text}</a></li>`
+              `<li><a href="${link.url}" target="_blank" style="white-space: normal">${link.text}</a></li>`
           )
           .join("")
       );

@@ -6,6 +6,7 @@ html {
   width: 100%;
   overflow-x: hidden;
   /* background-color: #717171; */
+  white-space: nowrap;
 }
 
 .root-background {
@@ -53,7 +54,7 @@ html {
 }
 
 /* rj1 */
-.rj1 {
+.img6 {
   top: 434px;
   right: 157px;
   width: 220px;
@@ -69,14 +70,14 @@ html {
 }
 
 /* f1 */
-.f1 {
+.img9 {
   top: 935px;
   right: 25px;
   width: 365px;
   transform: rotate(23.5deg);
 }
 /* rj2 */
-.rj2 {
+.img7 {
   top: 1157px;
   left: 357px;
   width: 209px;
@@ -100,7 +101,7 @@ html {
 }
 
 /* f2 */
-.f2 {
+.img10 {
   top: 2036px;
   left: 92px;
   width: 308px;
@@ -116,7 +117,7 @@ html {
 }
 
 /* rj3 */
-.rj3 {
+.img8 {
   top: 2234px;
   right: 192px;
   width: 208px;
@@ -124,7 +125,7 @@ html {
 }
 
 /* f3 */
-.f3 {
+.img11 {
   top: 2843px;
   right: 130px;
   width: 290px;
@@ -132,7 +133,7 @@ html {
 }
 
 /* f4 */
-.f4 {
+.img12 {
   top: 3058px;
   left: 95px;
   width: 285px;
@@ -150,18 +151,35 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .modal-content {
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   padding: 24px 20px;
   border-radius: 12px;
-  max-width: 90vw;
-  width: 340px;
+  max-width: 75vw;
+  max-height: 90vh;
+  width: 350px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  white-space: normal;
 }
+#modalImageSubtitle {
+  font-size: 12px;
+  color: #666;
+}
+#modalImage {
+  width: 100%;
+  max-width: 80vw;
+}
+
 .close-btn {
   position: absolute;
   top: 8px;
@@ -172,6 +190,7 @@ html {
 #resourceList {
   margin: 16px 0 0 0;
   padding: 0;
+
   list-style: none;
 }
 #resourceList li {
@@ -196,7 +215,7 @@ html {
     left: 38px;
     transform: scale(0.4222) rotate(-10.5deg);
   }
-  .rj1 {
+  .img6 {
     top: 132px;
     right: 7px;
     transform: scale(0.4222) rotate(-8.5deg);
@@ -206,12 +225,12 @@ html {
     left: 12px;
     transform: scale(0.4222) rotate(8.5deg);
   }
-  .f1 {
+  .img9 {
     top: 341px;
     left: 105px;
     transform: scale(0.4222) rotate(24.5deg);
   }
-  .rj2 {
+  .img7 {
     top: 405px;
     left: 90px;
     transform: scale(0.4222) rotate(-1.5deg);
@@ -226,7 +245,7 @@ html {
     right: 14px;
     transform: scale(0.4222) rotate(15deg);
   }
-  .f2 {
+  .img10 {
     top: 808px;
     left: -50px;
     transform: scale(0.4222) rotate(12deg);
@@ -236,17 +255,17 @@ html {
     left: -8px;
     transform: scale(0.4222) rotate(-16deg);
   }
-  .rj3 {
+  .img8 {
     top: 867px;
     right: 20px;
     transform: scale(0.4222) rotate(9deg);
   }
-  .f3 {
+  .img11 {
     top: 1157px;
     right: -32px;
     transform: scale(0.4222) rotate(13deg);
   }
-  .f4 {
+  .img12 {
     top: 1250px;
     left: -39px;
     transform: scale(0.4222) rotate(-17.5deg);
