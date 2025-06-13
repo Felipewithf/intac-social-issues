@@ -1,7 +1,7 @@
 // Resource data for each image
 const resources = {
   img1: {
-    image: "/img/m1.jpeg",
+    image: "img/m1.jpeg",
     imageSubtitle: "Illustration",
     title: "Casta Painting / Ownership",
     description:
@@ -14,7 +14,7 @@ const resources = {
     ],
   },
   img2: {
-    image: "/img/m2.jpeg",
+    image: "img/m2.jpeg",
     imageSubtitle: "Illustration",
     title: "Casta Painting / Economic Value",
     description:
@@ -27,7 +27,7 @@ const resources = {
     ],
   },
   img3: {
-    image: "/img/m3.jpeg",
+    image: "img/m3.jpeg",
     imageSubtitle: "Illustration",
     title: "Casta Painting/ Social Value",
     description:
@@ -40,7 +40,7 @@ const resources = {
     ],
   },
   img4: {
-    image: "/img/m4.jpeg",
+    image: "img/m4.jpeg",
     imageSubtitle: "Illustration",
     title: "Casta Painting/ Rating by Application",
     description:
@@ -53,7 +53,7 @@ const resources = {
     ],
   },
   img5: {
-    image: "/img/m5.jpeg",
+    image: "img/m5.jpeg",
     imageSubtitle: "Illustration",
     title: "Casta Painting/ Colonialism",
     description:
@@ -66,7 +66,7 @@ const resources = {
     ],
   },
   img6: {
-    image: "/img/rj1.jpg",
+    image: "img/rj1.jpg",
     imageSubtitle:
       "8x10 cyanotype created from a digital composite of imagery related to bigotry",
     title: "Knees ",
@@ -84,7 +84,7 @@ const resources = {
     ],
   },
   img7: {
-    image: "/img/rj2.jpg",
+    image: "img/rj2.jpg",
     imageSubtitle: "8x10 cyanotype created from a piece of WWII propaganda.",
     title: `I’m Proud..`,
     description: `8x10 cyanotype created from a piece of WWII propaganda. When I saw it for the first time, all I could think about was the culture around women's rights in the United States today. We have regressed as a society, not only in the legislation that was supposed to protect us, but culturally, puritanical beliefs are more popular with young people, especially young women themselves, than they have been in a long time. Conservative media targeting young men to profit off of their naivety and media dependencies has led to a surge in outspoken misogyny. It's utterly insane to see women who not only choose to participate in their oppression but run full speed toward their demise. White women and their persistent complicity and ignorance towards bigotry and racism for male approval continue to be one of the biggest contributors to subjugation and oppression.`,
@@ -96,7 +96,7 @@ const resources = {
     ],
   },
   img8: {
-    image: "/img/rj3.jpg",
+    image: "img/rj3.jpg",
     imageSubtitle: "8x10 cyanotype created from a digital composite.",
     title: "Control.",
     description:
@@ -113,7 +113,7 @@ const resources = {
     ],
   },
   img9: {
-    image: "/img/f1.png",
+    image: "img/f1.png",
     imageSubtitle: "Archive Photograph: Saskatchewan Archives Board",
     title: "Replacement",
     description:
@@ -130,7 +130,7 @@ const resources = {
     ],
   },
   img10: {
-    image: "/img/f2.png",
+    image: "img/f2.png",
     imageSubtitle: "Digital Composite",
     title: "Repetition",
     description:
@@ -143,7 +143,7 @@ const resources = {
     ],
   },
   img11: {
-    image: "/img/f3.png",
+    image: "img/f3.png",
     imageSubtitle:
       "Archival Photograph: Old Sun Indian Residential School in Gleichen Alberta",
     title: "Unlearning",
@@ -157,7 +157,7 @@ const resources = {
     ],
   },
   img12: {
-    image: "/img/f4.png",
+    image: "img/f4.png",
     imageSubtitle: "Archival Photograph: Archives Deschâtelets-NDC",
     title: "Head Count",
     description:
